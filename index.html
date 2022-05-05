@@ -35,6 +35,7 @@
         <li class="navbar__menu__item">Contact</li>
       </ul>
     </nav>
+    <!-- Home -->
     <section id="home">
       <img
         src="./imgs/profile.jpg"
@@ -47,8 +48,8 @@
       </p>
       <button type="button" class="home_contact">CONTACT ME</button>
     </section>
-    <!-- About -->
-    <section id="about">
+    <!-- About me-->
+    <section id="about" class="section">
       <h1>About me</h1>
       <p class="about_description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
@@ -59,26 +60,78 @@
         cupiditate.
       </p>
       <dl class="about__majors">
-        <!-- Front-end Icon -->
-        <dt class="about__majors-title">Front-end</dt>
-        <dd>HTML, CSS, Javascript, Typescript, React</dd>
-        <!-- Back-end Icon -->
-        <dt class="about__majors-title">Back-end</dt>
-        <dd>Java, Javascript, Python, Flask, NodeJS, Rest APIs, GraphQL</dd>
-        <!-- Data Science Icon -->
-        <dt class="about__majors-title">Data Science</dt>
-        <dd>Python, D3JS</dd>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <dt class="major__title">Front-end</dt>
+          <dd class="major__description">
+            HTML, CSS, Javascript, <br />Typescript, React
+          </dd>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <dt class="major__title">Back-end</dt>
+          <dd class="major__description">
+            Java, Javascript, Python, Flask,<br />NodeJS, Rest APIs, GraphQL
+          </dd>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-atom"></i>
+          </div>
+          <dt class="major__title">Data Science</dt>
+          <dd class="major__description">Python, D3JS</dd>
+        </div>
       </dl>
       <div class="about_jobs">
         <div class="job">
-          <img class="job__image" src="./imgs/uni-logo.gif" alt="uni_logo" />
-          <p class="job_name">Griffith University</p>
-          <p class="job_period">2022 - 2024</p>
+          <div class="job__image">
+            <img src="./imgs/knu-logo.jpg" alt="knu_uni_logo" />
+          </div>
+          <div class="job__description">
+            <p class="job_name">
+              Bachelor of Information Technology, Kyungpook National University,
+              Republic of Korea<br />
+              ( Major : Electronic Engineering )
+            </p>
+            <p class="job_period">2006 Mar - 2012 Feb</p>
+          </div>
+        </div>
+        <div class="job">
+          <div class="job__image">
+            <img src="./imgs/hyosung-logo.png" alt="hyosung corporation logo" />
+          </div>
+          <div class="job__description">
+            <p class="job_name">
+              UHV Power Substation Engineering & Business Management, Hyosung
+              Corporation
+              <br />
+              ( Electrical Substation Engineering, Various Oversea Project
+              Execution )
+            </p>
+            <p class="job_period">2012 Jan - 2022 Mar</p>
+          </div>
+        </div>
+        <div class="job">
+          <div class="job__image">
+            <img src="./imgs/uni-logo.gif" alt="griffith_uni_logo" />
+          </div>
+          <div class="job__description">
+            <p class="job_name">
+              Currently stuyding Master of Information Technology, Griffith
+              University, Australia<br />
+              ( Major : Software Development and Support )
+            </p>
+            <p class="job_period">2022 Jun - Until now</p>
+          </div>
         </div>
       </div>
     </section>
     <!-- Skills -->
-    <section id="skills">
+    <section id="skills" class="section">
       <h1>Skills</h1>
       <h2>Skills & Attributes</h2>
       <p>
@@ -168,7 +221,7 @@
       </div>
     </section>
     <!-- Work -->
-    <section id="work">
+    <section id="work" class="section">
       <h1>My work</h1>
       <h2>Projects</h2>
       <div class="work_categories">
@@ -293,7 +346,7 @@
       </ul>
     </section>
     <!-- Testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="section">
       <h1>Testimonials</h1>
       <h2>See what they say about me</h2>
       <div class="testimonials">
@@ -332,7 +385,7 @@
       </div>
     </section>
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="section">
       <h1 class="conteact__title">Let's talk</h1>
       <h2 class="contact__email">gibeks@hanmail.net</h2>
       <div class="contact__links">
