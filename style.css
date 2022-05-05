@@ -343,11 +343,6 @@ dd {
   transition: all 300ms ease-in;
 }
 
-.work_projects {
-  max-width: 1000px;
-  margin: auto;
-}
-
 .project {
   position: relative;
   display: block;
