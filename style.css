@@ -154,8 +154,8 @@ dd {
 #home {
   background-image: url(./imgs/background.png);
   background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 40px;
   padding-top: 100px;
   text-align: center;
@@ -178,6 +178,7 @@ dd {
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   color: var(--color-light-white);
+  background-color: var(--color-orange);
   margin: 24px;
   padding: 8px 12px;
   border: 2px solid var(--color-light-white);
@@ -185,7 +186,7 @@ dd {
 }
 
 .home__contact:hover {
-  background-color: var(--color-orange);
+  background-color: var(--color-pink);
 }
 
 /* Section Common */
